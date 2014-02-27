@@ -24,12 +24,14 @@ import json
 
 from pages import *
 
+
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         self.redirect('/home')
 
+
 app = webapp2.WSGIApplication([
-    ('/', MainHandler),
-    ('/home', home.Home),
-    ('/register', signup.Sign)
+  ('/', MainHandler),
+  ('/home', home.Home),
+  ('/register', signup.Sign)
 ], debug=True)
