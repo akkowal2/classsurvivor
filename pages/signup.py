@@ -5,10 +5,19 @@ import os
 import re
 import jinja2
 
+import hashlib
+
 from pages import base_handler
 
 
 class Sign(base_handler.BaseHandler):
+
+    def getDigest(self, password):
+        return hashlib.sha256(password).hexdigest()
+
+    def isPassword(self, password, digest):
+        return self.getDigest(password) == digest
+
     def get(self):
         questions = ["Name", "Age", "Major"]
         context = {'qList': questions}
