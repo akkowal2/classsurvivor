@@ -32,7 +32,7 @@ class BaseHandler(webapp2.RequestHandler):
 
     def registerPost(self):
         myDB = MySQLdb.connect(host="engr-cpanel-mysql.engr.illinois.edu", port=3306, db="akkowal2_survivor",
-                               user="akkowal2_drew", passwd="cs411sp14")
+                               user="akkowal2_drew", passwd="asdfasdasf")
         cur = myDB.cursor()
         cur.execute("SELECT Email FROM User WHERE Email='" + self.request.get('REmail') + "'")
         if not cur.fetchall():
@@ -63,7 +63,7 @@ class BaseHandler(webapp2.RequestHandler):
 
     def loginPost(self):
         myDB = MySQLdb.connect(host="engr-cpanel-mysql.engr.illinois.edu", port=3306, db="akkowal2_survivor",
-                               user="akkowal2_drew", passwd="cs411sp14")
+                               user="akkowal2_drew", passwd="asdfasdafsd")
         cur = myDB.cursor()
 
         hash = self.getDigest(self.request.get('Lpassword'))
