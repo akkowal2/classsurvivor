@@ -1,34 +1,32 @@
 {% extends "boilerplate.html" %}
 {% block bodyblock %}
 
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<div id="header-wrapper">
-    <div id="header" class="container">
-        <div id="logo">
-            <h1><a>Class Survivor</a></h1>
-        </div>
-        <div id="menu">
-            <ul>
-                <li class="current_page_item"><a href="home" accesskey="1" title="">Homepage</a></li>
-                <li class="current_page_item"><a href="#" accesskey="2" title="">Login</a></li>
-                <li class="active"><a href="register" accesskey="2" title="">Sign Up</a></li>
-
-            </ul>
-        </div>
-    </div>
-</div>
-
-
 <div id="wrapper">
     <div id="welcome" class="wrapper-style1">
         <div class="title">
-            <h2>Welcome to the Future Home of Class Survivor</h2>
-            <span class="byline">Website Currently Under Construction</span> </div>
+            <h2>Registration</h2>
+            </div>
+
             <Form method="post">
+                <fieldset>
             {% for question in qList %}
-                <li>{{ question }}: <input type="password" name={{ question }}></li>
+                {% if question == 'Password'%}
+                    <label for={{ question }}>{{ question }}: </label><input type="password" name=R{{ question }}>
+                {% endif %}
+
+                {% if question == 'ConfirmPassword'%}
+                    <label for={{ question }}>Confirm Password: </label><input type="password" name=R{{ question }}>
+                {% endif %}
+
+                {% if question != 'Password' and question != 'ConfirmPassword'%}
+                    <label for={{ question }}>{{ question }}: </label><input type="text" name=R{{ question }}>
+                {% endif %}
             {% endfor %}
-                <input type="submit" value="submit">
+
+                 </fieldset>
+                <input type="hidden" name="register" value="register">
+                <br><p style="text-align: center;"><input type="submit" name="RSubmit" value="Submit"></p>
+
             </Form>
     </div>
 </div>

@@ -6,30 +6,18 @@ import re
 import jinja2
 
 import hashlib
+import MySQLdb
 
 from pages import base_handler
 
 
 class Sign(base_handler.BaseHandler):
+    EMAIL_RE = re.compile(r'^[\S]+@[\S]+\.[\S]+$')
 
-    def getDigest(self, password):
-        return hashlib.sha256(password).hexdigest()
-
-    def isPassword(self, password, digest):
-        return self.getDigest(password) == digest
+    def valid_email(self, email):
+        return self.EMAIL_RE.match(email)
 
     def get(self):
-        questions = ["Name", "Age", "Major"]
+        questions = ["Name", "Email", "Password", "ConfirmPassword"]
         context = {'qList': questions}
         self.render("register.html", **context)
-
-    def post(self):
-        if self.response is not None:
-            self.redirect('/register')
-        else:
-            self.redirect('/home')
-
-
-            #def post(self):
-            #does nothing right now
-            #would look like self.render("home.html", stuff we want to put on the page)
