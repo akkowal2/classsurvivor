@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87fa3b62-50f5-48ad-958c-b962d9e731ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/__init__.py" afterPath="$PROJECT_DIR$/pages/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/base_handler.py" afterPath="$PROJECT_DIR$/pages/base_handler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+    <list default="true" id="87fa3b62-50f5-48ad-958c-b962d9e731ff" name="Default" comment="added account information page and signout functionality">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/AccountInfo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/BaseLoggedIn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/signout.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="classsurvivor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1393707016120" ignored="false" />
+    <file path="/Dummy.txt" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1393717624880" ignored="false" />
     <file path="/signup.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1393550868417" ignored="false" />
     <file path="/register.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1393551672342" ignored="false" />
     <file path="/main.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1393715154175" ignored="false" />
@@ -119,10 +119,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseLoggedIn.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BaseLoggedIn.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/BaseLoggedIn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="42" selection-start="1123" selection-end="1123" vertical-scroll-proportion="-16.346153">
+            <state line="25" column="42" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.501771">
               <folding>
                 <element signature="n#style#0;n#p#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -170,10 +170,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountInfo.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AccountInfo.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/AccountInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="139" selection-start="778" selection-end="778" vertical-scroll-proportion="0.58285713">
+            <state line="37" column="98" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#21#35#0" expanded="true" />
               </folding>
@@ -496,7 +496,11 @@
       <created>1393632417936</created>
       <updated>1393632417936</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added account information page and signout functionality">
+      <created>1393717315012</created>
+      <updated>1393717315012</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -514,6 +518,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -525,7 +530,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -572,7 +576,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added in password salting and character escaping when doing sql queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="added account information page and signout functionality" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -591,6 +595,7 @@
     <MESSAGE value="added register and login functionality" />
     <MESSAGE value="took out some private stuff" />
     <MESSAGE value="added in password salting and character escaping when doing sql queries" />
+    <MESSAGE value="added account information page and signout functionality" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -676,15 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/BaseLoggedIn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="42" selection-start="1123" selection-end="1123" vertical-scroll-proportion="-16.346153">
-          <folding>
-            <element signature="n#style#0;n#p#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/signout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="27" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
@@ -705,9 +701,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/AccountInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="139" selection-start="778" selection-end="778" vertical-scroll-proportion="0.58285713">
+        <state line="37" column="98" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#21#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/BaseLoggedIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="42" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.501771">
+          <folding>
+            <element signature="n#style#0;n#p#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
