@@ -51,8 +51,6 @@ class AccountInfo(base_handler.BaseHandler):
                                    user="akkowal2_drew", passwd="cs411sp14")
             cur = myDB.cursor()
 
-            cookie = self.request.cookies.get('auth')
-
             deptCode = results[0:results.find('&')]
             courseNum = results[results.find('&')+1:]
             logging.info('deptCode: ' + deptCode)
@@ -73,6 +71,6 @@ class AccountInfo(base_handler.BaseHandler):
 
 
 
-        info = [['Email', userInfo[0]], ['Name', userInfo[1]], ['Major', userInfo[3]], ['Class Status', userInfo[4]], ['Gender', userInfo[5]], ['Location', userInfo[6]]]
-        context = {'profile': '/profile/' + sessionkey, 'searchResults': classes, 'updated': update, 'time': str(date.today()), 'accountInfo': '/accountinfo/' + sessionkey + '/ /', 'signout': '/signout/' + sessionkey, 'name': userInfo[1], 'infoList': info}
+        info = [['Email', userInfo[1]], ['Name', userInfo[2]], ['Major', userInfo[4]], ['Class Status', userInfo[5]], ['Gender', userInfo[6]], ['Location', userInfo[7]]]
+        context = {'profile': '/profile/' + sessionkey, 'searchResults': classes, 'updated': update, 'time': str(date.today()), 'accountInfo': '/accountinfo/' + sessionkey + '/ /', 'signout': '/signout/' + sessionkey, 'name': userInfo[2], 'infoList': info}
         self.render("AccountInfo.html", **context)

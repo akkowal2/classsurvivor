@@ -21,8 +21,12 @@ import os
 import re
 import jinja2
 import json
+import MySQLdb
 
 from pages import *
+#sys.path.append(os.path.join(os.path.dirname(__file__), "MySql-python-1.2.5/MySQLdb"))
+#for p in ["MySql-python-1.2.5.zip"]:
+ # sys.path.insert(0, p)
 
 
 class MainHandler(RequestHandler):
@@ -45,3 +49,4 @@ app = WSGIApplication([
                                   (r'/profile/(.*)', Profile.Profile),
                                   (r'/signout/(.*)', signout.signout)
                               ], debug=True)
+
