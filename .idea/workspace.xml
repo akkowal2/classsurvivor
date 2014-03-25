@@ -8,7 +8,7 @@
     </list>
     <ignored path="classsurvivor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395786745852" ignored="false" />
+    <file path="/Dummy.txt" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395787941528" ignored="false" />
     <file path="/signup.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1393883409039" ignored="false" />
     <file path="/register.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395423055410" ignored="false" />
     <file path="/main.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395784925743" ignored="false" />
@@ -24,7 +24,7 @@
     <file path="/signout.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1393886091107" ignored="false" />
     <file path="/app.yaml" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1393888326759" ignored="false" />
     <file path="/Scraper.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395435866384" ignored="false" />
-    <file path="/Profile.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395787904796" ignored="false" />
+    <file path="/Profile.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395788368425" ignored="false" />
     <file path="/Profile.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395787882094" ignored="false" />
     <file path="$PROJECT_DIR$/../ClassInformationScraper/Scraper.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395524007325" ignored="false" />
     <file path="C:/Python27/Lib/site-packages/MySQLdb/__init__.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395194711805" ignored="false" />
@@ -135,10 +135,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Profile.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Profile.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/Profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="44" selection-start="325" selection-end="325" vertical-scroll-proportion="-7.1923075">
+            <state line="11" column="34" selection-start="315" selection-end="315" vertical-scroll-proportion="0.22422062">
               <folding>
                 <element signature="n#style#0;n#input#2;n#Form#0;n#td#0;n#tr#1;n#table#0;n#div#5;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#td#3;n#tr#1;n#table#0;n#div#5;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -156,10 +156,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Profile.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Profile.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/Profile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="37" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.5453488">
+            <state line="65" column="35" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#21#35#0" expanded="true" />
               </folding>
@@ -226,8 +226,8 @@
         <option value="$PROJECT_DIR$/pages/__init__.py" />
         <option value="$PROJECT_DIR$/templates/Class.html" />
         <option value="$PROJECT_DIR$/pages/ClassPage.py" />
-        <option value="$PROJECT_DIR$/templates/Profile.html" />
         <option value="$PROJECT_DIR$/pages/Profile.py" />
+        <option value="$PROJECT_DIR$/templates/Profile.html" />
       </list>
     </option>
   </component>
@@ -554,7 +554,11 @@
       <created>1395786755383</created>
       <updated>1395786755383</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fixed broken profile page occurring when user has no profile picture">
+      <created>1395787947189</created>
+      <updated>1395787947189</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -630,7 +634,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more information to profile's table and added a python class to handle Class pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed broken profile page occurring when user has no profile picture" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -660,6 +664,7 @@
     <MESSAGE value="added profile page Dan made and made searching for classes a little nicer" />
     <MESSAGE value="changed login/registration forms and added ability to upload profile pictures" />
     <MESSAGE value="added more information to profile's table and added a python class to handle Class pages" />
+    <MESSAGE value="fixed broken profile page occurring when user has no profile picture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -777,21 +782,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Profile.html">
+    <entry file="file://$PROJECT_DIR$/pages/Profile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="325" selection-end="325" vertical-scroll-proportion="-7.1923075">
+        <state line="65" column="35" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#input#2;n#Form#0;n#td#0;n#tr#1;n#table#0;n#div#5;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#3;n#tr#1;n#table#0;n#div#5;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#21#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Profile.py">
+    <entry file="file://$PROJECT_DIR$/templates/Profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="37" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.5453488">
+        <state line="11" column="34" selection-start="315" selection-end="315" vertical-scroll-proportion="0.22422062">
           <folding>
-            <element signature="e#21#35#0" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#Form#0;n#td#0;n#tr#1;n#table#0;n#div#5;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#3;n#tr#1;n#table#0;n#div#5;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
