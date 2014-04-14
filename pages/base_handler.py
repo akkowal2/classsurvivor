@@ -289,6 +289,7 @@ class BaseHandler(webapp2.RequestHandler):
         groupName = self.request.get('groupName')
         groupSize = self.request.get('groupSize')
         privacy = self.request.get('privacy')
+        description = self.request.get('groupDescription')
         priv = 0
         if privacy == 'privacy':
             priv = 1
@@ -306,8 +307,8 @@ class BaseHandler(webapp2.RequestHandler):
 
 
         try:
-            cur.execute("INSERT INTO Groups (ClassID, LeaderEmail, Name, Size, MaxSize, privacy) VALUES "
-                        "(%i, '%s', '%s', %i, %i, %i)" % (int(classID), email, groupName, 1, int(groupSize), priv))
+            cur.execute("INSERT INTO Groups (ClassID, LeaderEmail, Name, Size, MaxSize, privacy, Description) VALUES "
+                        "(%i, '%s', '%s', %i, %i, %i, '%s')" % (int(classID), email, groupName, 1, int(groupSize), priv, description))
             logging.info('i get here 1')
             cur.execute("SELECT LAST_INSERT_ID() FROM Groups")
             logging.info('i get here 2')
@@ -501,7 +502,104 @@ class BaseHandler(webapp2.RequestHandler):
 
         self.redirect('/class/' + str(classID))
 
+    def upvotePost(self):
+        email = self.request.get('upvote')
+        logging.info(email)
+        if (os.getenv('SERVER_SOFTWARE') and
+                os.getenv('SERVER_SOFTWARE').startswith('Google App Engine/')):
+            myDB = MySQLdb.connect(unix_socket='/cloudsql/class--survivor:survivor', db='akkowal2_survivor', user='root')
+        else:
+            myDB = MySQLdb.connect(host="engr-cpanel-mysql.engr.illinois.edu", port=3306, db="akkowal2_survivor", user="akkowal2_drew", passwd="cs411sp14")
 
+        cur = myDB.cursor()
+
+        try:
+            statement = "UPDATE Tutor SET Rating=Rating+1 WHERE Email='%s'" % email
+            logging.info(statement)
+            cur.execute(statement)
+            myDB.commit()
+        except:
+            myDB.rollback()
+
+        self.redirect('/publicProfile/' + email)
+
+    def downvotePost(self):
+        email = self.request.get('downvote')
+        logging.info(email)
+        if (os.getenv('SERVER_SOFTWARE') and
+                os.getenv('SERVER_SOFTWARE').startswith('Google App Engine/')):
+            myDB = MySQLdb.connect(unix_socket='/cloudsql/class--survivor:survivor', db='akkowal2_survivor', user='root')
+        else:
+            myDB = MySQLdb.connect(host="engr-cpanel-mysql.engr.illinois.edu", port=3306, db="akkowal2_survivor", user="akkowal2_drew", passwd="cs411sp14")
+
+        cur = myDB.cursor()
+
+        try:
+            statement = "UPDATE Tutor SET Rating=Rating-1 WHERE Email='%s'" % email
+            logging.info(statement)
+            cur.execute(statement)
+            myDB.commit()
+        except:
+            myDB.rollback()
+
+        self.redirect('/publicProfile/' + email)
+
+    def groupFinderPost(self):
+        classID = self.request.get('classList')
+        minSize = self.request.get('prefMinSize')
+        maxSize = self.request.get('prefMaxSize')
+        sessionKey = self.request.cookies.get('auth')
+
+        if (os.getenv('SERVER_SOFTWARE') and
+                os.getenv('SERVER_SOFTWARE').startswith('Google App Engine/')):
+            myDB = MySQLdb.connect(unix_socket='/cloudsql/class--survivor:survivor', db='akkowal2_survivor', user='root')
+        else:
+            myDB = MySQLdb.connect(host="engr-cpanel-mysql.engr.illinois.edu", port=3306, db="akkowal2_survivor", user="akkowal2_drew", passwd="cs411sp14")
+
+        cur = myDB.cursor()
+
+        cur.execute("SELECT Location,Major FROM User WHERE SessionKey='%s'" % sessionKey)
+        location = ''
+        major = ''
+
+        for row in cur.fetchall():
+            location = row[0]
+            major = row[1]
+
+        cur.execute("SELECT Name, IDNumber, SizeRank(%i,%i,Size,MaxSize) AS sizeRank FROM Groups WHERE ClassID=%i GROUP BY IDNumber" % (int(minSize), int(maxSize), int(classID)))
+        finalOutput = [[],[],[],[],[],[]]
+        for row in cur.fetchall():
+            finalOutput[0].append(row[1])
+            finalOutput[1].append(row[0])
+            finalOutput[3].append(int(row[2]))
+
+        counter = 0
+        for idNum in finalOutput[0]:
+            cur.execute("SELECT (COUNT(DISTINCT Email)/Size)*100 FROM totaldata WHERE GroupID=%i AND Major='%s'" % (int(idNum), major))
+
+            for row in cur.fetchall():
+                finalOutput[4].append(int(row[0]))
+
+            cur.execute("SELECT (COUNT(DISTINCT Email)/Size)*100 FROM totaldata WHERE GroupID=%i AND Location='%s'" % (int(idNum), location))
+
+            for row in cur.fetchall():
+                finalOutput[5].append(int(row[0]))
+
+            finalOutput[2].append(int((finalOutput[3][counter]+finalOutput[4][counter]+finalOutput[5][counter])/3))
+            counter += 1
+
+        logging.info('ClassID: ' + classID)
+        logging.info('MinSize: ' + minSize)
+        logging.info('MaxSize: ' + maxSize)
+
+        url = '/groupFinder/'
+
+        for count in range(0, len(finalOutput[0])):
+            url += str(finalOutput[0][count]) + '_' + str(finalOutput[1][count]) + '_' + str(finalOutput[2][count]) + '_' + str(finalOutput[3][count]) + '_' + str(finalOutput[4][count]) + '_' + str(finalOutput[5][count]) + '-'
+
+        url += '~'
+
+        self.redirect(url)
 
     def post(self, SK=None, results=None, update=None):
         if self.request.get('register'):
@@ -537,5 +635,11 @@ class BaseHandler(webapp2.RequestHandler):
             self.addTutorPost()
         elif self.request.get('addTutorClass'):
             self.addTutorToClassPost()
+        elif self.request.get('upvote'):
+            self.upvotePost()
+        elif self.request.get('downvote'):
+            self.downvotePost()
+        elif self.request.get('groupFind'):
+            self.groupFinderPost()
 
 
