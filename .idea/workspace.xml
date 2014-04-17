@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fa3b62-50f5-48ad-958c-b962d9e731ff" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AccountInfo.html" afterPath="$PROJECT_DIR$/templates/AccountInfo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Group.html" afterPath="$PROJECT_DIR$/templates/Group.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Group.py" afterPath="$PROJECT_DIR$/pages/Group.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Profile.html" afterPath="$PROJECT_DIR$/templates/Profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Profile.py" afterPath="$PROJECT_DIR$/pages/Profile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.yaml" afterPath="$PROJECT_DIR$/app.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/base_handler.py" afterPath="$PROJECT_DIR$/pages/base_handler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="classsurvivor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397671192932" ignored="false" />
+    <file path="/Dummy.txt" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397767764490" ignored="false" />
     <file path="/signup.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1393883409039" ignored="false" />
     <file path="/register.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395423055410" ignored="false" />
     <file path="/main.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397420103007" ignored="false" />
@@ -16,24 +21,23 @@
     <file path="/home.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395421297498" ignored="false" />
     <file path="/__init__.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397420076360" ignored="false" />
     <file path="/default.css" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397413397394" ignored="false" />
-    <file path="/base_handler.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397676285547" ignored="false" />
+    <file path="/base_handler.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397773770486" ignored="false" />
     <file path="/boilerplate.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395607578154" ignored="false" />
     <file path="/BaseLoggedIn.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397419897241" ignored="false" />
-    <file path="/AccountInfo.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397419510884" ignored="false" />
+    <file path="/AccountInfo.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397771381543" ignored="false" />
     <file path="/AccountInfo.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397675512789" ignored="false" />
     <file path="/signout.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1393886091107" ignored="false" />
     <file path="/app.yaml" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397414511526" ignored="false" />
     <file path="/Scraper.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395941942396" ignored="false" />
-    <file path="/Profile.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397500305023" ignored="false" />
-    <file path="/Profile.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397500369518" ignored="false" />
-    <file path="$PROJECT_DIR$/../ClassInformationScraper/Scraper.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395941946569" ignored="false" />
+    <file path="/Profile.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397773559629" ignored="false" />
+    <file path="/Profile.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397773019498" ignored="false" />
     <file path="C:/Python27/Lib/site-packages/MySQLdb/__init__.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395194711805" ignored="false" />
     <file path="/Class.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397340238000" ignored="false" />
     <file path="/ClassPage.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397675434605" ignored="false" />
     <file path="/CreateGroup.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1396396031700" ignored="false" />
     <file path="/CreateGroup.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1396294691062" ignored="false" />
-    <file path="/Group.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397679621255" ignored="false" />
-    <file path="/Group.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1396893884655" ignored="false" />
+    <file path="/Group.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397768094840" ignored="false" />
+    <file path="/Group.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397767921989" ignored="false" />
     <file path="$USER_HOME$/workspace/Webcrawler/.idea/workspace.xml" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1396469614830" ignored="false" />
     <file path="/ClassSearch.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397675342873" ignored="false" />
     <file path="/ClassSearch.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397331393418" ignored="false" />
@@ -103,10 +107,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="137" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.8834286">
+            <state line="59" column="137" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Group.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="16" selection-start="3034" selection-end="3034" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,10 +137,17 @@
       <file leaf-file-name="Profile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="74" selection-start="2634" selection-end="2634" vertical-scroll-proportion="-8.038462">
-              <folding>
-                <element signature="n#style#0;n#input#2;n#Form#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="125" column="82" selection-start="5338" selection-end="5338" vertical-scroll-proportion="-26.807692">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profile.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Profile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="45" selection-start="3481" selection-end="3481" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,58 +155,28 @@
       <file leaf-file-name="Group.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Group.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="26" selection-start="2814" selection-end="2814" vertical-scroll-proportion="-11.769231">
+            <state line="75" column="82" selection-start="3426" selection-end="3426" vertical-scroll-proportion="-14.384615">
               <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="19" selection-start="236" selection-end="446" vertical-scroll-proportion="-9.807693">
-              <folding>
-                <marker date="1397341572324" expanded="false" signature="3094:3124" placeholder="..." />
-                <marker date="1397341572324" expanded="false" signature="3562:3574" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_handler.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base_handler.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/base_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="601" column="61" selection-start="24803" selection-end="24803" vertical-scroll-proportion="0.0">
+            <state line="637" column="105" selection-start="26189" selection-end="26189" vertical-scroll-proportion="0.42807424">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassSearch.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/ClassSearch.html">
+      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="106" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-7.1538463">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassSearch.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/ClassSearch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="53" selection-start="2183" selection-end="2389" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassPage.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/ClassPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="198" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
+            <state line="33" column="27" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -195,7 +185,16 @@
       <file leaf-file-name="AccountInfo.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/AccountInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="52" selection-start="2712" selection-end="2712" vertical-scroll-proportion="0.0">
+            <state line="101" column="46" selection-start="3917" selection-end="3917" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountInfo.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/AccountInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="69" selection-start="1988" selection-end="1988" vertical-scroll-proportion="20.961538">
               <folding />
             </state>
           </provider>
@@ -219,22 +218,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/BaseLoggedIn.html" />
-        <option value="$PROJECT_DIR$/pages/__init__.py" />
-        <option value="$PROJECT_DIR$/pages/CreateGroup.py" />
-        <option value="$PROJECT_DIR$/pages/Group.py" />
         <option value="$PROJECT_DIR$/pages/PublicProfile.py" />
         <option value="$PROJECT_DIR$/pages/TutorDetails.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/pages/GroupFinder.py" />
-        <option value="$PROJECT_DIR$/pages/Profile.py" />
         <option value="$PROJECT_DIR$/templates/GroupFinder.html" />
         <option value="$PROJECT_DIR$/pages/ClassSearch.py" />
         <option value="$PROJECT_DIR$/pages/ClassPage.py" />
         <option value="$PROJECT_DIR$/pages/AccountInfo.py" />
-        <option value="$PROJECT_DIR$/pages/base_handler.py" />
-        <option value="$PROJECT_DIR$/templates/Profile.html" />
+        <option value="$PROJECT_DIR$/pages/Group.py" />
         <option value="$PROJECT_DIR$/templates/Group.html" />
+        <option value="$PROJECT_DIR$/app.yaml" />
+        <option value="$PROJECT_DIR$/../ClassInformationScraper/Scraper.py" />
+        <option value="$PROJECT_DIR$/templates/AccountInfo.html" />
+        <option value="$PROJECT_DIR$/pages/Profile.py" />
+        <option value="$PROJECT_DIR$/templates/Profile.html" />
+        <option value="$PROJECT_DIR$/pages/base_handler.py" />
       </list>
     </option>
   </component>
@@ -273,6 +272,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -282,9 +284,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
       <pane id="Scope">
         <subPane subId="Project Files" />
@@ -306,11 +305,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -346,14 +345,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -369,6 +360,27 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -399,19 +411,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -425,6 +424,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -446,13 +452,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="1">
@@ -601,7 +600,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -716,39 +715,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/signup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/PublicProfile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="111" selection-start="4665" selection-end="4749" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/PublicProfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="51" selection-start="3848" selection-end="3848" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/TutorDetails.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="77" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Profile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="35" selection-start="3643" selection-end="3643" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/GroupFinder.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="125" selection-start="1551" selection-end="1551" vertical-scroll-proportion="-18.923077">
@@ -775,14 +741,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/ClassSearch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="106" selection-start="1535" selection-end="1535" vertical-scroll-proportion="-7.1538463">
+        <state line="37" column="106" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/AccountInfo.py">
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="52" selection-start="2712" selection-end="2712" vertical-scroll-proportion="0.0">
+        <state line="15" column="19" selection-start="236" selection-end="446" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1397341572324" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1397341572324" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="137" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="27" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -794,45 +777,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base_handler.py">
+    <entry file="file://$PROJECT_DIR$/pages/AccountInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="601" column="61" selection-start="24803" selection-end="24803" vertical-scroll-proportion="0.0">
+        <state line="101" column="46" selection-start="3917" selection-end="3917" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ClassInformationScraper/Scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="68" selection-start="529" selection-end="529" vertical-scroll-proportion="0.2563805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/AccountInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="69" selection-start="1988" selection-end="1988" vertical-scroll-proportion="20.961538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="16" selection-start="3034" selection-end="3034" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Group.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="82" selection-start="3426" selection-end="3426" vertical-scroll-proportion="-14.384615">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Profile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="45" selection-start="3481" selection-end="3481" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="74" selection-start="2634" selection-end="2634" vertical-scroll-proportion="-8.038462">
-          <folding>
-            <element signature="n#style#0;n#input#2;n#Form#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="125" column="82" selection-start="5338" selection-end="5338" vertical-scroll-proportion="-26.807692">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/pages/base_handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="236" selection-end="446" vertical-scroll-proportion="-9.807693">
-          <folding>
-            <marker date="1397341572324" expanded="false" signature="3094:3124" placeholder="..." />
-            <marker date="1397341572324" expanded="false" signature="3562:3574" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Group.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="26" selection-start="2814" selection-end="2814" vertical-scroll-proportion="-11.769231">
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="137" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.8834286">
+        <state line="637" column="105" selection-start="26189" selection-end="26189" vertical-scroll-proportion="0.42807424">
           <folding />
         </state>
       </provider>
