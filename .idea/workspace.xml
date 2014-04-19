@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fa3b62-50f5-48ad-958c-b962d9e731ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AccountInfo.html" afterPath="$PROJECT_DIR$/templates/AccountInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/AccountInfo.py" afterPath="$PROJECT_DIR$/pages/AccountInfo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Group.html" afterPath="$PROJECT_DIR$/templates/Group.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/base_handler.py" afterPath="$PROJECT_DIR$/pages/base_handler.py" />
     </list>
     <ignored path="classsurvivor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397767764490" ignored="false" />
+    <file path="/Dummy.txt" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397869266034" ignored="false" />
     <file path="/signup.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1393883409039" ignored="false" />
     <file path="/register.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395423055410" ignored="false" />
     <file path="/main.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397420103007" ignored="false" />
@@ -16,7 +14,7 @@
     <file path="/home.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395421297498" ignored="false" />
     <file path="/__init__.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397420076360" ignored="false" />
     <file path="/default.css" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397413397394" ignored="false" />
-    <file path="/base_handler.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397773770486" ignored="false" />
+    <file path="/base_handler.py" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397869683305" ignored="false" />
     <file path="/boilerplate.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1395607578154" ignored="false" />
     <file path="/BaseLoggedIn.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397419897241" ignored="false" />
     <file path="/AccountInfo.html" changelist="87fa3b62-50f5-48ad-958c-b962d9e731ff" time="1397775894334" ignored="false" />
@@ -134,7 +132,7 @@
       <file leaf-file-name="Profile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="82" selection-start="5338" selection-end="5338" vertical-scroll-proportion="-47.115383">
+            <state line="125" column="82" selection-start="5338" selection-end="5338" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,10 +147,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Group.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Group.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Group.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="16" selection-start="4521" selection-end="4521" vertical-scroll-proportion="0.80283356">
+            <state line="93" column="16" selection-start="4521" selection-end="4521" vertical-scroll-proportion="-60.807693">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -161,10 +159,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base_handler.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base_handler.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/base_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="517" column="76" selection-start="21344" selection-end="21344" vertical-scroll-proportion="0.0">
+            <state line="172" column="47" selection-start="7615" selection-end="7615" vertical-scroll-proportion="0.6113689">
               <folding />
             </state>
           </provider>
@@ -191,10 +189,8 @@
       <file leaf-file-name="AccountInfo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/AccountInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="12" selection-start="9276" selection-end="9276" vertical-scroll-proportion="-29.384615">
-              <folding>
-                <element signature="n#style#0;n#select#3;n#fieldset#0;n#Form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="193" column="12" selection-start="9276" selection-end="9276" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -229,10 +225,10 @@
         <option value="$PROJECT_DIR$/../ClassInformationScraper/Scraper.py" />
         <option value="$PROJECT_DIR$/pages/Profile.py" />
         <option value="$PROJECT_DIR$/templates/Profile.html" />
-        <option value="$PROJECT_DIR$/pages/base_handler.py" />
         <option value="$PROJECT_DIR$/pages/AccountInfo.py" />
         <option value="$PROJECT_DIR$/templates/AccountInfo.html" />
         <option value="$PROJECT_DIR$/templates/Group.html" />
+        <option value="$PROJECT_DIR$/pages/base_handler.py" />
       </list>
     </option>
   </component>
@@ -271,9 +267,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,6 +276,9 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
       </pane>
       <pane id="Scope">
         <subPane subId="Project Files" />
@@ -304,11 +300,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -344,6 +340,14 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,27 +363,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -410,6 +393,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -423,13 +419,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -451,6 +440,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="1">
@@ -716,43 +712,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/GroupFinder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="125" selection-start="1551" selection-end="1551" vertical-scroll-proportion="-18.923077">
-          <folding>
-            <element signature="n#style#0;n#input#3;n#fieldset#0;n#Form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#4;n#fieldset#0;n#Form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="31" column="125" selection-start="1551" selection-end="1551" vertical-scroll-proportion="-18.923077" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/ClassPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="198" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="66" column="198" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/ClassSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="53" selection-start="2183" selection-end="2389" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="60" column="53" selection-start="2183" selection-end="2389" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/ClassSearch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="106" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="37" column="106" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="236" selection-end="446" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1397341572324" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1397341572324" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="15" column="19" selection-start="236" selection-end="446" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
@@ -797,16 +777,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="517" column="76" selection-start="21344" selection-end="21344" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="82" selection-start="5338" selection-end="5338" vertical-scroll-proportion="-47.115383">
+        <state line="125" column="82" selection-start="5338" selection-end="5338" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -820,20 +793,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/AccountInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="12" selection-start="9276" selection-end="9276" vertical-scroll-proportion="-29.384615">
-          <folding>
-            <element signature="n#style#0;n#select#3;n#fieldset#0;n#Form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="193" column="12" selection-start="9276" selection-end="9276" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Group.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="16" selection-start="4521" selection-end="4521" vertical-scroll-proportion="0.80283356">
+        <state line="93" column="16" selection-start="4521" selection-end="4521" vertical-scroll-proportion="-60.807693">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/base_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="47" selection-start="7615" selection-end="7615" vertical-scroll-proportion="0.6113689">
+          <folding />
         </state>
       </provider>
     </entry>
